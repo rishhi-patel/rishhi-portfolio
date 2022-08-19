@@ -19,7 +19,7 @@ function Home2() {
               <b className="purple"> self-motivated</b> professional developer,
               responsible for working on both
               <b className="purple"> front-end</b> and{" "}
-              <b className="purple">back-end</b> development and working with
+              <b className="purple">back-end</b> development and maintaining
               fully-fledged and functioning platforms with databases or servers
               <br />
               <br />
