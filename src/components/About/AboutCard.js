@@ -8,17 +8,14 @@ function AboutCard() {
       <Card.Body style={{ textAlign: "left" }}>
         <blockquote className="blockquote mb-0">
           <p>
-            Hi Everyone, I am <span className="purple">Rishi Patel </span>
+            Hi Everyone, I am <span className="purple">Rishikumar Amrutbhai Patel </span>
             from <span className="purple"> Ankleshwar, India.</span>
-            <br />
-            Working as a Full stack Dev at Dignizant Technology
-            <br />
             <br />
           </p>
           <p style={{ color: "rgb(155 126 172)" }}>
-            "The Best Thing About Time is, it Changes!"{" "}
+            "Set your heart ablaze, go beyond your limits!"{" "}
           </p>
-          <footer className="blockquote-footer">Rishi</footer>
+          <footer className="blockquote-footer">Kyōjurō Rengoku</footer>
         </blockquote>
       </Card.Body>
     </Card>

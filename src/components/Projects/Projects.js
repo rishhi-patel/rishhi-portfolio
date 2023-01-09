@@ -16,7 +16,7 @@ const ProjectArr = [
     title: "Dz Forms",
     imgPath:
       "https://user-images.githubusercontent.com/53328265/147442306-4f367a77-2c2b-47c9-9ea8-7439337eaa69.png",
-    link: "https://dev-staging-dz-forms.netlify.app/",
+    link: "https://dz-forms.netlify.app",
     description:
       "Select from multiple question types, drag-and-drop to reorder questions & customise values. Everything you need to get anything done, now in one place.",
   },
@@ -24,7 +24,7 @@ const ProjectArr = [
     title: "My Cart Pro",
     imgPath:
       "https://user-images.githubusercontent.com/53328265/162624863-065ab2f9-3dc9-4401-a90d-c0dbe3cf9273.png",
-    link: "http://my-cart-pro.herokuapp.com/",
+    link: "https://my-cart-pro.netlify.app",
     description: "Full featured shopping cart Product, reviews and ratings, profile with orders & Admin product management, Admin user managementAdmin Order details page, Mark orders as delivered optionCheckout process, PayPal / credit card integration",
   },
   {
