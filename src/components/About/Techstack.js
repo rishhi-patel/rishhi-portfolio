@@ -1,26 +1,44 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import React from "react"
+import { Col, Row } from "react-bootstrap"
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
-} from "react-icons/di";
+  DiJava,
+} from "react-icons/di"
 import {
   SiExpress,
   SiApollographql,
   SiGithub,
   SiSequelize,
   SiSocketdotio,
-} from "react-icons/si";
+  SiTypescript,
+  SiPython,
+  SiNestjs,
+  SiFlutter,
+  SiDart,
+  SiStrapi,
+} from "react-icons/si"
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDart />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -35,7 +53,7 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiApollographql />
+        <SiNestjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSocketdotio />
@@ -44,13 +62,16 @@ function Techstack() {
         <SiSequelize />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiStrapi />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
       </Col>
     </Row>
-  );
+  )
 }
 
-export default Techstack;
+export default Techstack

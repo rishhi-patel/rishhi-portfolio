@@ -21,19 +21,20 @@ const ProjectArr = [
       "Select from multiple question types, drag-and-drop to reorder questions & customise values. Everything you need to get anything done, now in one place.",
   },
   {
-    title: "My Cart Pro",
+    title: "Eespacecarre-Ecommerce",
     imgPath:
-      "https://user-images.githubusercontent.com/53328265/162624863-065ab2f9-3dc9-4401-a90d-c0dbe3cf9273.png",
-    link: "https://my-cart-pro.netlify.app",
-    description: "Full featured shopping cart Product, reviews and ratings, profile with orders & Admin product management, Admin user managementAdmin Order details page, Mark orders as delivered optionCheckout process, PayPal / credit card integration",
+      "https://github-production-user-asset-6210df.s3.amazonaws.com/98315242/304305102-580f8ea1-b982-45e3-9c1a-7e1be5d3d05e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T054636Z&X-Amz-Expires=300&X-Amz-Signature=851862ed3502656e6a9e57d41f8f736c40489481ea0f943897a6925e43f24295&X-Amz-SignedHeaders=host&actor_id=98315242&key_id=0&repo_id=526617351",
+    link: "https://espacecarre.com",
+    description:
+      "A user-friendly e-commerce app designed for seamless shopping experiences. It features a sleek, intuitive interface with advanced search capabilities, personalized recommendations, and secure checkout options.",
   },
   {
-    title: "Smart-Health",
+    title: "Eespacecarre-Admin",
     imgPath:
-       "https://user-images.githubusercontent.com/53328265/162624674-56d1dc62-9563-4e63-a166-b169ad44b1fe.png",
-    link: "https://dev-staging-smarth-health-service.netlify.app/#home",
+      "https://github-production-user-asset-6210df.s3.amazonaws.com/98315242/304305048-6b6ce114-e94f-425c-8359-ba9408cc30d6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T054753Z&X-Amz-Expires=300&X-Amz-Signature=795bedae4105f99f9a960e325ac947aa591178fac67b9ed0243d808f0739e258&X-Amz-SignedHeaders=host&actor_id=98315242&key_id=0&repo_id=526617351",
+    link: "https://admin.panel.espacecarre.com",
     description:
-      "The Smart Health Care is to provide a patient or any customer an easy way to Booking appointments",
+      "A comprehensive e-commerce admin panel offering real-time analytics, inventory management, and order tracking. Equipped with user-friendly dashboards for efficient site management and customer support tools.",
   },
 ]
 
@@ -61,7 +62,6 @@ function Projects() {
               />
             </Col>
           ))}
-          }
         </Row>
       </Container>
     </Container>

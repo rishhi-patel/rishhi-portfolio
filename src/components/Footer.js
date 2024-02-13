@@ -1,15 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import React from "react"
+import { Container, Row, Col } from "react-bootstrap"
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai"
+import { FaLinkedinIn } from "react-icons/fa"
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  let date = new Date()
+  let year = date.getFullYear()
   return (
     <Container fluid className="footer">
       <Row>
@@ -53,7 +49,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/rishhi._/"
+                href="https://www.instagram.com/rishhi.js/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -65,7 +61,7 @@ function Footer() {
         </Col>
       </Row>
     </Container>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
