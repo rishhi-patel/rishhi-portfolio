@@ -83,7 +83,7 @@ const ContactUs = () => {
                               <p class="mb-0">
                                 <a
                                   class="link-secondary text-decoration-none"
-                                  href="tel:+15057922430"
+                                  href="tel:+12269789548"
                                 >
                                   +1 (226) 978-9548
                                 </a>
