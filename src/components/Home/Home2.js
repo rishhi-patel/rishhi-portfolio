@@ -4,6 +4,7 @@ import myImg from "../../Assets/avatar.png"
 import Tilt from "react-parallax-tilt"
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai"
 import { FaLinkedinIn } from "react-icons/fa"
+import ContactUs from "../contactus/ContactUs"
 
 function Home2() {
   return (
@@ -23,10 +24,11 @@ function Home2() {
               to <b className="purple">deployment.</b>
             </p>
           </Col>
-          <Col md={5} className="myAvtar">
-            <Tilt>
-              {/* <img src={myImg} className="img-fluid" alt="avatar" /> */}
-            </Tilt>
+          <Col md={12} className="myAvtar">
+            {/* <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt> */}
+            <ContactUs />
           </Col>
         </Row>
         <Row>
