@@ -13,14 +13,6 @@ const ProjectArr = [
       "Geometra is a specialised tool for the construction industry. It supports 2D/PDF drawings, 3D/IFC models and allows you to create competitive tenders using 2D, 3D and BIM alongside a fully customisable cost estimation framework.",
   },
   {
-    title: "Dz Forms",
-    imgPath:
-      "https://user-images.githubusercontent.com/53328265/147442306-4f367a77-2c2b-47c9-9ea8-7439337eaa69.png",
-    link: "https://dz-forms.netlify.app",
-    description:
-      "Select from multiple question types, drag-and-drop to reorder questions & customise values. Everything you need to get anything done, now in one place.",
-  },
-  {
     title: "Eespacecarre-Ecommerce",
     imgPath:
       "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_1920x1200/https://d33wubrfki0l68.cloudfront.net/659e2bfdf9a2b60008282e98/screenshot_2024-01-10-05-33-57-0000.webp",

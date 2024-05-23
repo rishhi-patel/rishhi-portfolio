@@ -5,53 +5,36 @@ import { ImPointRight } from "react-icons/im"
 function AboutCard() {
   return (
     <Card className="quote-card-view">
-      <Card.Body style={{ textAlign: "left" }}>
+      <Card.Body style={{}}>
         <blockquote className="blockquote mb-0">
           <p>
-            An experienced <span className="purple">Full Stack Developer</span>{" "}
-            with a robust background in <span className="purple">web</span> ,
-            <span className="purple">mobile</span> and{" "}
-            <span className="purple">AI software development</span>. Currently,
-            I am honing my skills in{" "}
-            <span className="purple">AI model training</span> at{" "}
-            <span className="purple">Outlier</span>, where I am dedicated to
-            enhancing <span className="purple">response accuracy</span> and{" "}
-            <span className="purple">functionality</span>. Previously, I led
-            diverse development teams at{" "}
-            <span className="purple">Konzept solutions</span> in{" "}
-            <span className="purple">India</span>, focusing on comprehensive
-            solutions from <span className="purple">inception </span> to
-            <span className="purple"> deployment</span>. My technical expertise
-            spans across advanced programming languages and frameworks,
-            including <span className="purple">Java</span>,{" "}
-            <span className="purple"> Dart</span>,
-            <span className="purple"> JavaScript</span>,{" "}
-            <span className="purple"> Spring Boot</span>,{" "}
-            <span className="purple"> Node.js</span>, and{" "}
-            <span className="purple">Flutter</span>, complemented by a solid
-            foundation in database and cloud technologies like{" "}
-            <span className="purple">MongoDB</span>,{" "}
-            <span className="purple">Oracle</span>, and{" "}
-            <span className="purple">AWS</span>. In my academic pursuit, I'm
-            enhancing my specialization in{" "}
+            I am a seasoned <span className="purple">Full Stack Developer</span>{" "}
+            with expertise in{" "}
             <span className="purple">
-              Reporting System & Database Development
+              web, mobile, and AI software development
+            </span>
+            , currently enhancing{" "}
+            <span className="purple">AI model training</span> at Outlier.
+            Previously, I led development projects at{" "}
+            <span className="purple">Konzept Solutions</span> in India. I
+            possess strong skills in programming languages and frameworks such
+            as{" "}
+            <span className="purple">
+              Java, Dart, JavaScript, Spring Boot, Node.js,
             </span>{" "}
-            at <span className="purple">Conestoga College</span>, backed by a
-            Bachelor’s in{" "}
-            <span className="purple">Computer Science & Engineering</span> from{" "}
-            <span className="purple">Parul University</span>. Recognized for my
-            <span className="purple"> dedication</span> and{" "}
-            <span className="purple">collaborative skills</span>, I've earned
-            accolades such as the{" "}
-            <span className="purple">Unmatched Dedication Award</span> and the{" "}
-            <span className="purple">Super Squad Award</span> in 2022. I am
-            passionate about using my technical knowledge and leadership skills
-            to drive <span className="purple">technology advancement</span> and
-            am always eager to connect with like-minded{" "}
-            <span className="purple">professionals</span> and potential{" "}
-            <span className="purple">collaborators</span>.
-            <br />
+            and <span className="purple">Flutter</span>, along with database and
+            cloud technologies like{" "}
+            <span className="purple">MongoDB, Oracle,</span> and{" "}
+            <span className="purple">AWS</span>. I am completing my studies in{" "}
+            <span className="purple">
+              Reporting System & Database Management
+            </span>{" "}
+            at <span className="purple">Conestoga College</span> and hold a
+            Bachelor’s in <span className="purple">Computer Science</span> from{" "}
+            <span className="purple">Parul University</span>. My work has earned
+            me accolades like the{" "}
+            <span className="purple">Unmatched Dedication Award</span> and{" "}
+            <span className="purple">Super Squad Award</span> in 2022.
           </p>
 
           {/* <p style={{ color: "rgb(155 126 172)" }}>

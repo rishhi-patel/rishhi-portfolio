@@ -20,6 +20,7 @@ import {
   SiFlutter,
   SiDart,
   SiStrapi,
+  SiSpringboot,
 } from "react-icons/si"
 
 function Techstack() {
@@ -62,10 +63,10 @@ function Techstack() {
         <SiSequelize />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiStrapi />
+        <SiFlutter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFlutter />
+        <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
