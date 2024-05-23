@@ -1,17 +1,22 @@
-import React from "react";
-import Typewriter from "typewriter-effect";
+import React from "react"
+import Typewriter from "typewriter-effect"
 
 function Type() {
   return (
     <Typewriter
       options={{
-        strings: ["Web Designer", "MERN Stack Developer", "Backend Engineer"],
+        strings: [
+          "Full Stack Engineer",
+          "MERN Stack Developer",
+          "Flutter Developer",
+          "Java Developer",
+        ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
       }}
     />
-  );
+  )
 }
 
-export default Type;
+export default Type

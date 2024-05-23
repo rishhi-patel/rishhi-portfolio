@@ -10,34 +10,22 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body text-center">
-              <b className="purple"> independent</b> and{" "}
-              <b className="purple"> self-motivated</b> professional developer,
-              responsible for working on both
-              <b className="purple"> front-end</b> and{" "}
-              <b className="purple">back-end</b> development and maintaining
-              fully-fledged and functioning platforms with databases or servers
-              <br />
-              <br />
-              My field of Interest's are building new{" "}
-              <i>
-                <b className="purple">Web Applications </b> and{" "}
-                <b className="purple">APIs</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with
-              <b className="purple"> third-party applications</b>
+              I am freelance full stack developer. I provide comprehensive
+              software solutions to help businesses enhance their digital
+              platforms and solve complex technical challenges. With
+              <b className="purple"> over three years of experience</b> , I've
+              led teams and projects from <b className="purple">conception </b>
+              to <b className="purple">deployment.</b>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={5} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              {/* <img src={myImg} className="img-fluid" alt="avatar" /> */}
             </Tilt>
           </Col>
         </Row>
