@@ -9,7 +9,7 @@ function TestimonialCard({ testimonial }) {
         <Card.Text className="text-center">{review}</Card.Text>
       </Card.Body>
       <Card.Title>- {name}</Card.Title>
-      <Card.Title>({position})</Card.Title>
+      <Card.Title>{position}</Card.Title>
     </Card>
   )
 }
