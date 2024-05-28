@@ -71,7 +71,7 @@ const ContactUs = () => {
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="32"
                                 height="32"
-                                fill="currentColor"
+                                fill="#c770f0"
                                 class="bi bi-telephone-outbound"
                                 viewBox="0 0 16 16"
                               >
@@ -98,7 +98,7 @@ const ContactUs = () => {
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="32"
                                 height="32"
-                                fill="currentColor"
+                                fill="#c770f0"
                                 class="bi bi-envelope-at"
                                 viewBox="0 0 16 16"
                               >
