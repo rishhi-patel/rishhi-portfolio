@@ -46,6 +46,12 @@ const Testimonials = [
     name: "Shrunjal Mehta",
     position: "Chief Executive Officer at Konzept Solutions",
   },
+  {
+    review:
+      "Mr. Rishi Patel has worked at Dignizant Technologies LLP as a full-stack developer for one year, and during his time with us, Rishi has consistently demonstrated outstanding dedication, skill, and professionalism. Rishi has excelled in their role, contributing significantly to our projects and team. He showcased excellent skills in React, Node, Mongo, and JavaScript and consistently delivered high-quality work on time. His positive attitude and collaborative nature made him a valued team member.I am confident that Rishi will excel in any future endeavors and wholeheartedly recommend them for any position they seek.",
+    name: "Haresh Vavadiyae",
+    position: "Founder and CEO at Dignizant Technologies LLP.",
+  },
 ]
 function Projects() {
   return (
@@ -60,7 +66,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {ProjectArr.map((project, i) => (
-            <Col md={4} className="project-card">
+            <Col sm={12} md={6} lg={4} className="project-card">
               <ProjectCard
                 imgPath={project.imgPath}
                 isBlog={false}
@@ -77,7 +83,7 @@ function Projects() {
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {Testimonials.map((testimonial, i) => (
-            <Col md={4} className="project-card">
+            <Col sm={12} md={6} lg={4} className="project-card">
               <TestimonialCard testimonial={testimonial} key={i} />
             </Col>
           ))}
