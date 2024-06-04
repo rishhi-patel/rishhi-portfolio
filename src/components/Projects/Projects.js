@@ -17,7 +17,7 @@ const ProjectArr = [
     title: "Geometra",
     imgPath:
       "https://uploads-ssl.webflow.com/6232e5f33ee2ea50a71002f3/62b2e08abfa17410637088ee_Resized%20Geometra.png",
-    link: "https://www.rukkor.com/geometra",
+    link: "https://www.rukkor.com/product/geometra",
     description:
       "Geometra is a specialised tool for the construction industry. It supports 2D/PDF drawings, 3D/IFC models and allows you to create competitive tenders using 2D, 3D and BIM alongside a fully customisable cost estimation framework.",
   },
